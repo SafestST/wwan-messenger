@@ -1,0 +1,7 @@
+bin/
+obj/
+*.user
+tools/hw-probe-report.txt
+dist/
+tools/hw-probe-report.txt
+tools/*.log

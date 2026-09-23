@@ -1,0 +1,52 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- =========================================================================
+         THEME: NORD — polar night (own design, Nord-inspired hues).
+         Deep blue-slate foundation, snow foreground, frost-cyan accent,
+         aurora semantics. Inbound cards ride nord1; outbound cards get a
+         frost-tinted raise with the frost accent base bar. Same key set as
+         Paper.xaml (DESIGN-CONTRACT.md frozen keys).
+         ========================================================================= -->
+
+    <!-- Core colors -->
+    <Color x:Key="C_Rail">#FF272C38</Color>
+    <Color x:Key="C_Bg">#FF2E3440</Color>
+    <Color x:Key="C_Panel">#FF3B4252</Color>
+    <Color x:Key="C_PanelHi">#FF4A5468</Color>
+    <Color x:Key="C_CardIn">#FF3B4252</Color>
+    <Color x:Key="C_CardOut">#FF3B4C5C</Color>
+    <Color x:Key="C_Line">#FF434C5E</Color>
+    <Color x:Key="C_LineStrong">#FF4C566A</Color>
+    <Color x:Key="C_Accent">#FF88C0D0</Color>
+    <Color x:Key="C_AccentSoft">#FFA6D3E0</Color>
+    <Color x:Key="C_Ink">#FF16232C</Color>
+    <Color x:Key="C_GreenOk">#FFA3BE8C</Color>
+    <Color x:Key="C_RedBad">#FFBF616A</Color>
+    <Color x:Key="C_CyanInfo">#FF8FBCBB</Color>
+    <Color x:Key="C_Fg">#FFECEFF4</Color>
+    <Color x:Key="C_FgMid">#FFC7D0DE</Color>
+    <Color x:Key="C_FgLow">#FF6E7B90</Color>
+    <Color x:Key="C_UnreadBadge">#FF88C0D0</Color>
+
+    <!-- Frozen brushes -->
+    <SolidColorBrush x:Key="RailBg" Color="{StaticResource C_Rail}" />
+    <SolidColorBrush x:Key="Bg" Color="{StaticResource C_Bg}" />
+    <SolidColorBrush x:Key="PanelBg" Color="{StaticResource C_Panel}" />
+    <SolidColorBrush x:Key="PanelHi" Color="{StaticResource C_PanelHi}" />
+    <SolidColorBrush x:Key="CardIn" Color="{StaticResource C_CardIn}" />
+    <SolidColorBrush x:Key="CardOut" Color="{StaticResource C_CardOut}" />
+    <SolidColorBrush x:Key="Line" Color="{StaticResource C_Line}" />
+    <SolidColorBrush x:Key="LineStrong" Color="{StaticResource C_LineStrong}" />
+    <SolidColorBrush x:Key="Accent" Color="{StaticResource C_Accent}" />
+    <SolidColorBrush x:Key="AccentSoft" Color="{StaticResource C_AccentSoft}" />
+    <SolidColorBrush x:Key="GreenOk" Color="{StaticResource C_GreenOk}" />
+    <SolidColorBrush x:Key="RedBad" Color="{StaticResource C_RedBad}" />
+    <SolidColorBrush x:Key="CyanInfo" Color="{StaticResource C_CyanInfo}" />
+    <SolidColorBrush x:Key="Fg" Color="{StaticResource C_Fg}" />
+    <SolidColorBrush x:Key="FgMid" Color="{StaticResource C_FgMid}" />
+    <SolidColorBrush x:Key="FgLow" Color="{StaticResource C_FgLow}" />
+    <SolidColorBrush x:Key="UnreadBadge" Color="{StaticResource C_UnreadBadge}" />
+    <SolidColorBrush x:Key="Ink" Color="{StaticResource C_Ink}" />
+
+</ResourceDictionary>

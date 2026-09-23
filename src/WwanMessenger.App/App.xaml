@@ -1,0 +1,17 @@
+<Application x:Class="WwanMessenger.App.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- Theme palette FIRST (merged-dictionary slot 0): MainViewModel.ApplyTheme
+                     replaces this entry at runtime; all consumers reference the brushes via
+                     DynamicResource so the swap restyles live. Paper is the startup
+                     placeholder — the ctor immediately re-applies Settings.Theme. -->
+                <ResourceDictionary Source="Theme/Paper.xaml" />
+                <ResourceDictionary Source="Theme/Resources.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
