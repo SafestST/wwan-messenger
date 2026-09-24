@@ -8,15 +8,6 @@ to any Windows-driven cellular modem. See
 **[docs/COMPATIBILITY.md](docs/COMPATIBILITY.md)** for the honest
 compatibility matrix.
 
-**The gap it fills:** desktop Windows has no SMS app for its own SIM. The
-machine has a modem, a SIM slot and an antenna; Windows will happily push
-data through them — but its only first-party texting story, Phone Link,
-relays through your *phone's* radio. WwanMessenger closes that gap: GSM
-03.40/03.38 PDU encoding in-process, sending over the Windows Mobile
-Broadband API, receiving through the Windows Chat platform store (with
-automatic modem-store and AT-serial fallbacks), every message stored
-locally.
-
 > Verified over the air: send completion `S_OK` in ~0.4 s, receive
 > propagation ≤ 10 s, full weeks of SIM-resident history imported, a
 > forced 80-second WWAN-service outage recovered automatically in five
