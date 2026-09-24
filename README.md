@@ -1,4 +1,4 @@
-# WWAN MESSENGER — SMS for the SIM already inside your laptop
+# WWAN MESSENGER — Lenovo X1 Carbon
 
 A native Windows SMS client that sends and receives texts through the
 laptop's **own WWAN modem** — no phone involved, no cloud relay, full
