@@ -9,7 +9,7 @@ a ThinkPad X1 Carbon Gen 9 (Quectel EM120R-GL modem, Orange PL SIM).
 | Need | Detail |
 |---|---|
 | Windows 10 (19041+) or 11, x64 | Windows 10 version 2004 / 20H2 or newer |
-| WWAN modem built in | The laptop's cellular modem, visible to Windows as "Mobile broadband". ThinkPad/Fibocom/Quectel modules are the tested path |
+| WWAN modem built in | The laptop's cellular modem, visible to Windows as "Mobile broadband". The documented maintainer test used a Quectel EM120R-GL on a ThinkPad X1 Carbon Gen 9; other modules are untested |
 | SIM card with SMS provisioned | A normal consumer SIM. **Data-only SIMs cannot send SMS** — see §5 |
 | Carrier activation | A prepaid SIM that was never activated will register on the network and still refuse every send (lived experience — §5, row 2) |
 

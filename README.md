@@ -3,8 +3,9 @@
 A native Windows SMS client that sends and receives texts through the
 laptop's **own WWAN modem** — no phone involved, no cloud relay, full
 history kept locally. Built and verified live end-to-end on a ThinkPad
-X1 Carbon Gen 9 (Quectel EM120R-GL, Orange PL); portable by architecture
-to any Windows-driven cellular modem. See
+X1 Carbon Gen 9 (Quectel EM120R-GL, Orange PL). That is the one
+documented test configuration; other modems, drivers, carriers and
+Windows versions are not covered by it. See
 **[docs/COMPATIBILITY.md](docs/COMPATIBILITY.md)** for the honest
 compatibility matrix.
 
